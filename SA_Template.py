@@ -54,7 +54,7 @@ pygame.display.set_caption("Breakout Game")
     
     for i in range(7):
         brick=pygame.Rect(10 + i* 100,60,80,30)
-        pygame.draw.rect(screen,(255,0,0),brick)   
+        pygame.draw.rect(screen,(255,0,0),brick)
     pygame.time.wait(10)
     pygame.display.flip()
 pygame.quit()
