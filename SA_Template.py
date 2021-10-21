@@ -25,9 +25,14 @@ pygame.display.set_caption("Breakout Game")
            
                   #Change carryOn to False
                  
-    #Fill screen
+    # Fill screen with any one color of your choice from the following options.
+    # Silver: (192,192,192)
+    # Cyan: (0,255,255)
+    # Green: (0,128,0)
+    # Violet: (138,43,226)
+    # Magenta: (255,0,255)
+    
    
-      
     if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_RIGHT:
             if paddle.x<540: 
