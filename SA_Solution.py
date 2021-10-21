@@ -26,7 +26,7 @@ while carryOn:
                   #Change carryOn to False
                   carryOn = False # Flag that we are done so we exit this loop 
     #Fill screen
-    screen.fill((36,90,190))
+    screen.fill((138,43,226))
       
     if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_RIGHT:
