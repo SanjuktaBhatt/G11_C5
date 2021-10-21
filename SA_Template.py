@@ -21,7 +21,7 @@ pygame.display.set_caption("Breakout Game")
 
   #Use for loop to check for each event
    
-            #Check is quit is pressed
+            #Check if quit is pressed
            
                   #Change carryOn to False
                  
