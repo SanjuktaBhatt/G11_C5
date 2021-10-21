@@ -21,7 +21,7 @@ carryOn = True
 while carryOn:
   #Use for loop to check for each event
     for event in pygame.event.get(): # User did something
-            #Check is quit is pressed
+            #Check if quit is pressed
             if event.type == pygame.QUIT: # If user clicked close
                   #Change carryOn to False
                   carryOn = False # Flag that we are done so we exit this loop 
