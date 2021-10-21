@@ -53,10 +53,11 @@ while carryOn:
     pygame.draw.rect(screen,(255,255,255) ,ball)
     
     for i in range(7):
-     brick=pygame.Rect(10 + i* 100,60,80,30)
-      pygame.draw.rect(screen,(255,0,0),brick)
+        brick=pygame.Rect(10 + i* 100,60,80,30)
+        pygame.draw.rect(screen,(255,0,0),brick)
     #Create orange brick here
     
+    pygame.time.wait(10)
     pygame.display.flip()
 pygame.quit()
     
